@@ -1,0 +1,9 @@
+export const production = "PRODUCTION";
+export const development = "DEVELOPMENT";
+export const driveModelName = "Drivers";
+export const userModelName = "Users";
+export const bookingModelName = "Bookings";
+export const userBearer = "userBearer";
+export const driverBearer = "driverBearer";
+export const minimumRating = 0;
+export const maximumRating = 5;

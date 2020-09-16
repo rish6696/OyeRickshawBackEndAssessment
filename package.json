@@ -1,0 +1,34 @@
+{
+  "name": "OyeRickshawBackendAssessment",
+  "version": "1.0.0",
+  "description": "Node.js Project to manage Rating on OyeRickshaw Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start-dev": "nodemon --exec ts-node --files ./src/index.ts",
+    "start-production": "pm2 start build/index.js",
+    "pretty": "prettier --write \"./**/*.{ts,json}\""
+  },
+  "author": "Rishabh Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@types/jsonwebtoken": "^8.5.0",
+    "dev": "^0.1.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-joi-validation": "^4.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.24",
+    "prettier": "^2.0.5",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4",
+    "@types/express": "^4.17.7",
+    "@types/hapi__joi": "^17.1.4",
+    "@types/mongoose": "^5.7.31"
+  }
+}
